@@ -1,0 +1,14 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+stages:
+  - build
+  - test
+build:
+  script:
+    - echo "Building the application..."
+test:
+  script:
+    - echo "Running unit tests..."
+    - echo "Running integration tests..."
